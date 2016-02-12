@@ -1,0 +1,7 @@
+TODO
+
+1. positions of words in sentence
+2. part of speech tagging
+3. remove 95 percent frequent words and words show up only once
+4. LTD
+5. Porter Stemming and Lemmatizing
