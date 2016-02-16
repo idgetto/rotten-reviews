@@ -8,6 +8,13 @@ TODO
 
 
 
+6. train word2vec with larger texts
+7. part of speech
+8. lemmas
+9. assemble models
+
+
+
 
 
 pipeline = Pipeline([

@@ -153,4 +153,4 @@ output = pd.DataFrame({
     'PhraseId': test.PhraseId,
     'Sentiment': result
 })
-output.to_csv( "Word2Vec_AverageVectors.csv", index=False, quoting=3 )
+output.to_csv( "Word2Vec_AverageVectors_Google_Model.csv", index=False, quoting=3 )
