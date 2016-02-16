@@ -5,3 +5,13 @@ TODO
 3. remove 95 percent frequent words and words show up only once
 4. LTD
 5. Porter Stemming and Lemmatizing
+
+
+
+
+
+pipeline = Pipeline([
+    ('bow', CountVectorizer(analyzer=split_into_lemmas)),  # strings to token integer counts
+    ('tfidf', TfidfTransformer()),  # integer counts to weighted TF-IDF scores
+    ('classifier', MultinomialNB()),  # train on TF-IDF vectors w/ Naive Bayes classifier
+])
