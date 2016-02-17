@@ -14,6 +14,8 @@ TODO
 9. assemble models
 
 
+ Stemmed, Porter Stemming
+
 
 
 
@@ -22,3 +24,5 @@ pipeline = Pipeline([
     ('tfidf', TfidfTransformer()),  # integer counts to weighted TF-IDF scores
     ('classifier', MultinomialNB()),  # train on TF-IDF vectors w/ Naive Bayes classifier
 ])
+
+
