@@ -3,13 +3,14 @@ TODO
 1. positions of words in sentence
 2. part of speech tagging
 3. remove 95 percent frequent words and words show up only once
-4. LTD
+4. LDA
 5. Porter Stemming and Lemmatizing
 
 
 
 6. train word2vec with larger texts
-7. part of speech
+7. part of speech/ pos - sentiment average of noun, vb, adj, combined every two words of vb, adj
+
 8. lemmas
 9. assemble models
 
