@@ -27,3 +27,7 @@ pipeline = Pipeline([
 ])
 
 
+analyze:
+
+1. analyze textblob different libraries for sentiments, compare with real ones
+2. analyze different ensemble models
